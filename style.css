@@ -1,0 +1,61 @@
+/* navbar */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    height: 73px;
+    background-color: black;
+    flex-wrap: wrap;
+
+}
+ul, li{
+    display: flex;
+    cursor: pointer;
+    padding: 14px 83px 12px 126px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.nametag{
+    color: white;
+    padding: 23px 7px 10px 29px;
+}
+
+
+/* mock test */
+#cat1{
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 28px;
+}
+.boxes{
+    height: 226px;
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f7f3;
+    border-radius: 14px;
+
+    
+}
+.container{
+    display: flex;
+    margin-top: 20px;
+    justify-content:space-evenly ;    
+}
+#boxitem{
+    margin-top: px;
+}
+
+
+
+
+
+
+

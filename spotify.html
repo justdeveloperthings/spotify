@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="spotify_logo.png" alt="Spotify" id="logo1"></li>
+            <li>Login</li>
+            <li>Home</li>
+            <li>About us</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Best of NCS-No Copyright Sounds</h2>
+        <div class="songlist">
+            <div class="songitem">
+                <img src="back1.jpg" alt="img">
+                <span class="songname">Desperate</span>
+                <span class="songlistplay"><span class="timestamp">3:04</span></span>
+                <i id="0" class="fa-solid songitemplay fa-play fa-lg"></i>
+            </div>
+            <div class="songitem">
+                <img src="back2.jpg" alt="img">
+                <span class="songname">The Time</span>
+                <span class="songlistplay"><span class="timestamp">3:04</span></span>
+                <i id="1" class="fa-solid songitemplay fa-play fa-lg"></i>
+            </div>
+            <div class="songitem">
+                <img src="back3.jpg" alt="img">
+                <span class="songname">Too late</span>
+                <span class="songlistplay"><span class="timestamp">3:04</span></span>
+                <i id="2" class="fa-solid songitemplay fa-play fa-lg"></i>
+            </div>
+            <div class="songitem">
+                <img src="back4.jpg" alt="img">
+                <span class="songname">Walkaway</span>
+                <span class="songlistplay"><span class="timestamp">3:04</span></span>
+                <i id="3" class="fa-solid songitemplay fa-play fa-lg"></i>
+            </div>
+
+        </div>
+    </div>
+    <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" min="0" max="100" value="0" id="progressbar">
+        <div class="icons">
+            <!-- fontawesome icons -->
+
+            <i class="fa-solid fa-backward fa-2xl" id="prev"></i>
+            <i id="masterplay" class="fa-solid fa-play fa-2xl"></i>
+            <i class="fa-solid fa-forward fa-2xl" id="next"></i>
+        </div>
+        <div class="m">
+            <img src="musicgif.gif" alt="gif" id="gif">
+            <h3 class="musicname">Let me love you</h3>
+        </div>
+
+    </div>
+    
+</body>
+<script src="https://kit.fontawesome.com/c23fbbee97.js" crossorigin="anonymous"></script>
+<script src="spotify.js"></script>
+
+</html>
